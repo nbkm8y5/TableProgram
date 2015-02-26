@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64ADFCE51A9F998700448434 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 64ADFCE41A9F998700448434 /* food.png */; };
 		64E3A6DE1A968829005B6E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3A6DD1A968829005B6E9A /* main.m */; };
 		64E3A6E11A968829005B6E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3A6E01A968829005B6E9A /* AppDelegate.m */; };
 		64E3A6E41A968829005B6E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3A6E31A968829005B6E9A /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64ADFCE41A9F998700448434 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
 		64E3A6D81A968829005B6E9A /* TableProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E3A6DC1A968829005B6E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E3A6DD1A968829005B6E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		64E3A6DA1A968829005B6E9A /* TableProgram */ = {
 			isa = PBXGroup;
 			children = (
+				64ADFCE41A9F998700448434 /* food.png */,
 				64E3A6DF1A968829005B6E9A /* AppDelegate.h */,
 				64E3A6E01A968829005B6E9A /* AppDelegate.m */,
 				64E3A6E21A968829005B6E9A /* ViewController.h */,
@@ -202,6 +205,7 @@
 				64E3A6E71A968829005B6E9A /* Main.storyboard in Resources */,
 				64E3A6EC1A968829005B6E9A /* LaunchScreen.xib in Resources */,
 				64E3A6E91A968829005B6E9A /* Images.xcassets in Resources */,
+				64ADFCE51A9F998700448434 /* food.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				64E3A6FD1A968829005B6E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64E3A6FE1A968829005B6E9A /* Build configuration list for PBXNativeTarget "TableProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				64E3A7001A968829005B6E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
